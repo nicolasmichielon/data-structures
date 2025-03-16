@@ -1,4 +1,4 @@
-from superArray import SuperArray
+from DataStructures.superArray import SuperArray
 
 
 # Matrix data structure: You can create a matrix with any number of rows and columns,
