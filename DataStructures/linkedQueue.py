@@ -21,11 +21,11 @@ class LinkedQueue:
       current = current.getNext()
 
   def enqueue(self, value):
+    e = Element(value)
     if self.head == None:
-      self.head = Element(value)
+      self.head = e
       self.tail = self.head
       return
-    e = Element(value)
     self.tail.setNext(e)
     self.tail = e
 
